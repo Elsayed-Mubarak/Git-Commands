@@ -1,0 +1,17 @@
+pull from branch to another branch
+..................................
+
+https://stackoverflow.com/questions/34344034/git-pull-on-a-different-branch
+
+...........................................................................
+
+I found an incantation that worked for me:
+..........................................
+
+1 - git fetch origin master:master
+
+then (if you want to merge right away):
+
+2 - git merge master
+
+I was really surprised how hard it was to find an answer to this since it seems like it would be a common use case.
